@@ -6,6 +6,7 @@ pipeline {
             
             steps {
                 sh '''
+                    pwd
                     ls -la
                     node --version
                     npm --version
